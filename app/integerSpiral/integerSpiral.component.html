@@ -1,0 +1,33 @@
+<div class="container">
+  <form name="integerSpiralForm" novalidate class="form form-horizontal">
+
+    <lable>Please enter number:</lable>
+    <input type="number" name="numberInput" ng-model="vm.input" ng-maxlength="3" required>
+    <div class="text-color" ng-messages="(integerSpiralForm.numberInput.$touched || integerSpiralForm.numberInput.$dirty) && integerSpiralForm.numberInput.$error"
+      role="alert">
+      <div ng-message="required">Please enter number.</div>
+      <div ng-message="maxlength">Please enter 3 digit number.</div>
+    </div>
+
+    <label>
+      <input type="radio" ng-model="vm.direction" value="right">
+      Right
+    </label><br/>
+    <label>
+      <input type="radio" ng-model="vm.direction" value="left">
+      Left
+    </label><br/>
+
+    <button type="submit" ng-disabled="integerSpiralForm.$invalid" ng-click="vm.onSubmitCTA()">Submit </button>
+
+  </form>
+
+</div>
+
+<table>
+  <tr ng-repeat="row in vm.model.finalSpiralArray track by $index">
+    <td ng-repeat="col in row">
+      <span ng-if="col >= 0">{{col}}</span>
+    </td>
+  </tr>
+</table>

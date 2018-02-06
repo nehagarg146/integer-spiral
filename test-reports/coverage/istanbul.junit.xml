@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="48"  lines-covered="48"  line-rate="1"  branches-valid="8"  branches-covered="8"  branch-rate="1"  timestamp="1515063423757" complexity="0" version="0.1">
+<sources>
+	<source>C:\Users\964302\Music\4Jan\integer-spiral</source>
+</sources>
+<packages>
+	<package name="app"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="app.js"  filename="app\app.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="app.integerSpiral"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="integerSpiral.component.js"  filename="app\integerSpiral\integerSpiral.component.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="4"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="integerSpiral.constants.js"  filename="app\integerSpiral\integerSpiral.constants.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+			<line number="2"  hits="1"  branch="false" />
+		</lines>
+		</class>
+		<class name="integerSpiral.controller.js"  filename="app\integerSpiral\integerSpiral.controller.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="6"  signature="()V" >
+				<lines><line number="4"  hits="6" /></lines>
+			</method>
+			<method name="onSubmitCTA"  hits="5"  signature="()V" >
+				<lines><line number="13"  hits="5" /></lines>
+			</method>
+			<method name="createSizeOfMatrix"  hits="5"  signature="()V" >
+				<lines><line number="29"  hits="5" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="6"  hits="6"  branch="false" />
+			<line number="8"  hits="6"  branch="false" />
+			<line number="9"  hits="6"  branch="false" />
+			<line number="10"  hits="6"  branch="false" />
+			<line number="11"  hits="6"  branch="false" />
+			<line number="13"  hits="1"  branch="false" />
+			<line number="15"  hits="5"  branch="false" />
+			<line number="16"  hits="5"  branch="false" />
+			<line number="17"  hits="5"  branch="false" />
+			<line number="18"  hits="5"  branch="false" />
+			<line number="19"  hits="5"  branch="false" />
+			<line number="29"  hits="1"  branch="false" />
+			<line number="30"  hits="5"  branch="false" />
+			<line number="31"  hits="80"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="32"  hits="7"  branch="false" />
+			<line number="37"  hits="6"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="app.services"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="integerSpiral.service.js"  filename="app\services\integerSpiral.service.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+			<method name="(anonymous_1)"  hits="14"  signature="()V" >
+				<lines><line number="4"  hits="14" /></lines>
+			</method>
+			<method name="createSpiralMatrixArray"  hits="4"  signature="()V" >
+				<lines><line number="13"  hits="4" /></lines>
+			</method>
+			<method name="createSpiralIntegerArray"  hits="36"  signature="()V" >
+				<lines><line number="30"  hits="36" /></lines>
+			</method>
+			<method name="removeIntGreaterThanInputValue"  hits="4"  signature="()V" >
+				<lines><line number="46"  hits="4" /></lines>
+			</method>
+			<method name="createFinalArray"  hits="4"  signature="()V" >
+				<lines><line number="57"  hits="4" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="3"  hits="1"  branch="false" />
+			<line number="6"  hits="14"  branch="false" />
+			<line number="13"  hits="1"  branch="false" />
+			<line number="15"  hits="4"  branch="false" />
+			<line number="16"  hits="12"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="17"  hits="6"  branch="false" />
+			<line number="18"  hits="18"  branch="false" />
+			<line number="21"  hits="6"  branch="false" />
+			<line number="22"  hits="18"  branch="false" />
+			<line number="27"  hits="4"  branch="false" />
+			<line number="30"  hits="1"  branch="false" />
+			<line number="33"  hits="36"  branch="false" />
+			<line number="36"  hits="36"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="37"  hits="24"  branch="false" />
+			<line number="41"  hits="12"  branch="false" />
+			<line number="46"  hits="1"  branch="false" />
+			<line number="47"  hits="4"  branch="false" />
+			<line number="48"  hits="36"  branch="false" />
+			<line number="49"  hits="36"  branch="true"  condition-coverage="100% (2/2)" />
+			<line number="50"  hits="6"  branch="false" />
+			<line number="54"  hits="4"  branch="false" />
+			<line number="57"  hits="1"  branch="false" />
+			<line number="58"  hits="4"  branch="false" />
+			<line number="59"  hits="4"  branch="false" />
+			<line number="60"  hits="12"  branch="false" />
+			<line number="61"  hits="12"  branch="false" />
+			<line number="62"  hits="36"  branch="false" />
+			<line number="69"  hits="14"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
